@@ -1,0 +1,78 @@
+h1 {
+  margin-top: 158px;
+
+  width: 608px;
+  color: $black;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.41px;
+  margin-left: 390px;
+  span {
+    color: $brandcolor;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -3.41px;
+  }
+}
+.intro-wrap {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  margin-bottom: 100px;
+  button {
+    display: flex;
+    padding: 20px 32px;
+    gap: 8px;
+    align-items: center;
+    background: $brandcolor;
+    border: $brandcolor 1px solid;
+
+    p {
+      color: $white;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.8px;
+    }
+    i {
+      color: $white;
+    }
+    &:hover {
+      background-color: white;
+      border: $brandcolor 1px solid;
+      p {
+        color: $brandcolor;
+      }
+      i {
+        color: $brandcolor;
+      }
+    }
+  }
+  &-reel {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+
+    p {
+      color: $black;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      &:hover {
+        color: $brandcolor;
+      }
+    }
+  }
+}

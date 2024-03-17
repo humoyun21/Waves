@@ -1,0 +1,64 @@
+header {
+  .header-wrap {
+    display: flex;
+    padding: 24px 32px 24px 70px;
+    align-items: center;
+    gap: 330px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(6px);
+    ul {
+      display: flex;
+      align-items: flex-start;
+      gap: 60px;
+      a {
+        text-decoration: none;
+        li {
+          color: $black;
+          font-family: Montserrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: -0.8px;
+          list-style: none;
+          &:hover {
+            color: $brandcolor;
+          }
+        }
+      }
+    }
+
+    button {
+      border: none;
+      display: flex;
+      align-items: center;
+      background-color: $brandcolor;
+      gap: 8px;
+      padding: 12px 24px;
+      height: 45px;
+
+      p {
+        color: $white;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.8px;
+      }
+      i {
+        color: $white;
+      }
+      &:hover {
+        background-color: white;
+        border: $brandcolor 1px solid;
+        p {
+          color: $brandcolor;
+        }
+        i {
+          color: $brandcolor;
+        }
+      }
+    }
+  }
+}

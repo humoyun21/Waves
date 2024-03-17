@@ -1,0 +1,164 @@
+.services {
+  margin-left: 70px;
+  margin-bottom: 140px;
+  h1 {
+    color: $brandcolor;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-left: 0px;
+  }
+  h2 {
+    width: 742px;
+    color: $black;
+    margin-bottom: 88px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.6px;
+  }
+  &-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 71px;
+
+    &-card {
+      h3 {
+        color: $brandcolor;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        margin-top: 32px;
+      }
+      h4 {
+        width: 300px;
+        color: #3f3f3f;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.8px;
+        margin-top: 32px;
+      }
+      h5 {
+        color: black;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.8px;
+        margin-top: 16px;
+      }
+    }
+  }
+  &-wrap1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 71px;
+
+    &-card {
+      h3 {
+        color: $brandcolor;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        margin-top: 32px;
+      }
+      h4 {
+        width: 300px;
+        color: #3f3f3f;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.8px;
+        margin-top: 32px;
+      }
+      h5 {
+        color: black;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.8px;
+        margin-top: 16px;
+      }
+    }
+  }
+  .intro-wrap1 {
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 48px;
+    margin-bottom: 100px;
+    button {
+      display: flex;
+      padding: 20px 32px;
+      gap: 8px;
+      align-items: center;
+      background: $brandcolor;
+      border: $brandcolor 1px solid;
+
+      p {
+        color: $white;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.8px;
+      }
+      i {
+        color: $white;
+      }
+      &:hover {
+        background-color: white;
+        border: $brandcolor 1px solid;
+        p {
+          color: $brandcolor;
+        }
+        i {
+          color: $brandcolor;
+        }
+      }
+    }
+    &-reel {
+      gap: 16px;
+      display: flex;
+      align-items: center;
+
+      p {
+        color: $black;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        &:hover {
+          color: $brandcolor;
+        }
+      }
+    }
+  }
+}
