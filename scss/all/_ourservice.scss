@@ -1,0 +1,146 @@
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #fff;
+  z-index: 20;
+
+  .nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+
+    &_list {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      list-style: none;
+
+      &--item-link {
+        transition: all 0.3s ease;
+        color: #0f0f0f;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.8px;
+        font-family: Montserrat;
+
+        &:hover {
+          color: #8447e9;
+        }
+
+        &:active {
+          color: #0f0f0f;
+        }
+      }
+    }
+
+    &_button {
+      font-size: 16px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #8447e9;
+      padding: 12px 24px;
+      border: none;
+      border-bottom: $white;
+      font-family: Montserrat;
+      transition: all 0.3s ease;
+
+      i {
+        font-size: 20px;
+        font-family: Montserrat;
+      }
+
+      &:hover {
+        background-color: #8547e9d4;
+      }
+
+      &:active {
+        background-color: #8447e9;
+      }
+    }
+  }
+}
+
+#our_services {
+  background: #e1dbf6;
+  height: 383px;
+
+  .container {
+    .our_services {
+      padding: 0 112px;
+      list-style: none;
+      p {
+        padding-top: 86px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #8447e9;
+        margin-bottom: 40px;
+        font-family: Montserrat;
+      }
+
+      h3 {
+        list-style: none;
+        font-family: Montserrat;
+        width: 780px;
+        font-weight: 500;
+        font-size: 40px;
+        color: #0f0f0f;
+        line-height: 48.76px;
+      }
+    }
+  }
+}
+
+#reklam {
+  .container {
+    .reklam-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding-top: 86px;
+      padding-bottom: 86px;
+      height: 383px;
+      height: 770px;
+      padding: 88px 112px;
+      gap: 35px;
+
+      div {
+        width: 521px;
+        h4 {
+          font-weight: 500;
+          font-size: 32px;
+          margin-bottom: 40px;
+          color: #8447e9;
+          font-family: Montserrat;
+        }
+
+        p {
+          font-size: 20px;
+          font-weight: 400;
+          margin-bottom: 30px;
+          font-family: Montserrat;
+        }
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          width: 474px;
+          justify-content: space-between;
+          list-style: none;
+
+          li {
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #8447e9;
+          }
+        }
+      }
+    }
+  }
+}

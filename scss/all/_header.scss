@@ -29,7 +29,8 @@ header {
     }
 
     button {
-      border: none;
+      border: none !important;
+
       display: flex;
       align-items: center;
       background-color: $brandcolor;

@@ -1,0 +1,49 @@
+.form-wrapper {
+  h4 {
+    width: 372px;
+    font-size: 62px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+  }
+
+  p {
+    font-family: Montserrat;
+    width: 738px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+
+  form {
+    width: 519px;
+    label {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      input {
+        width: 100%;
+        padding: 16px;
+        font-size: 24px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.369);
+        font-family: Montserrat;
+      }
+    }
+    img {
+      margin-top: 40px;
+      margin-bottom: 88px;
+    }
+
+    button {
+      display: block;
+      padding: 20px 40px;
+      background: #8447e9;
+      color: white;
+      border: none;
+      margin-bottom: 100px;
+      font-family: Montserrat;
+    }
+  }
+}
